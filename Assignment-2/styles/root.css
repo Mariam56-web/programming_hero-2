@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* all google fonts links */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root{
+  --background-color01:#F48E28; 
+  --background-color02: #000;
+  --background-color03: #fff;
+  --background-color04: #F5DDC4;
+  --background-color05: #B6B6B6;
+  --background-color06: #F5DDC4;
+  --background-color07: #FAFAFF;
+  --background-color08: red;
+}
+/* classes that will be used for all types of screen */
+.container {
+  height: 100%;
+  margin: 0px auto;
+}
+.montserrat-all {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-box{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.8rem 0px;
+}
+.title-box p{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--background-color01);
+  margin-bottom: 8px;
+}
+.title-box h3{
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}

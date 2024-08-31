@@ -1,0 +1,100 @@
+.testimonials{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin: 22px auto;
+}
+.testimonials-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.carousel{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    /* gap: 12px; */
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px 0px #0000001A;
+    border-radius: 20px;
+}
+.card{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-pic img{
+    height: 76px;
+    width: 76px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-info{
+    margin-left: 12px;
+}
+.profile-info h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.profile-info p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.profile-messg p{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    width: 95%;
+}
+.left-testi{
+    position: relative;
+}
+.left-arrow{
+    width: 40px;
+    height: 40px;
+    background-color: var(--background-color01);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: -4%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.left-arrow svg{
+    color: var(--background-color03);
+    width: 30px;
+}
+.right-arrow{
+    width: 40px;
+    height: 40px;
+    background-color: var(--background-color01);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: -4%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.right-arrow svg{
+    color: var(--background-color03);
+    width: 30px;
+}
+.right-testi img{
+    width: 100%;
+}

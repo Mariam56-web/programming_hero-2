@@ -1,0 +1,90 @@
+.footer{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    margin-top: 50px;
+    padding: 3rem 5rem;
+    background-color: var(--background-color07);
+}
+.logo-icon img{
+    width: 108px;
+} 
+.logo-box p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--background-color05);
+    text-align: justify;
+    margin-bottom: 12px;
+}
+.social-icons{
+    display: flex;
+}
+.social-box{
+    height: 30px;
+    width: 25px;
+    background-color: var(--background-color06);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-box:not(:first-child){
+    margin-left: 12px;
+}
+.footer-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 34px;
+}
+.restaurant-times p,.contact-us p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--background-color05);
+    margin-bottom: 8px;
+}
+.user-link{
+    display: flex;
+    flex-direction: column;
+}
+.user-link a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--background-color05);
+    margin-bottom: 8px;
+}
+.contact-email{
+    width: 100%;
+    height: 44px;
+    background-color: var(--background-color03);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    box-shadow: 0px 0px 15px 0px #0000000D;
+    margin-top: 16px;
+}
+.contact-email input{
+    width: 75%;
+    height: 80%;
+    border: none;
+    font-size: 16px;
+}
+.contact-email button{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--background-color01);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.contact-email button svg{
+    color: var(--background-color03);
+    width: 28px;
+
+}

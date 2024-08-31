@@ -1,0 +1,166 @@
+.hero{
+    width: 100%;
+    height: fit-content;
+    margin: 22px auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+  .arrow-img{
+    position: absolute;
+    left: 320px;
+    z-index: 1;
+  }
+  .left-hero{
+    width: 50%;
+    height: 100%;
+    z-index: 10;
+    margin-top: -40px;
+  }
+  .delivery-box{
+    width: 270px;
+    height: 64px;
+    background-color: var(--background-color06);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0.5rem;
+    margin-bottom:40px;
+  }
+  .delivery-box h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--background-color01);
+    padding-left: 1rem;
+  }
+  .bike-icon{
+    width: 54px;
+    height: 54px;
+    background-color: var(--background-color03);
+    border-radius: 50%;
+  }
+  .hero-title,.hero-description{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 40px;
+  }
+  .hero-title h1{
+    text-align: justify;
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .hero-title span{
+    color: var(--background-color01);
+  }
+  .hero-description p{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 20px;
+  }
+  .hero-btns{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .order-btn{
+    padding: 18px 36px;
+    background: linear-gradient(180deg, #EFAB68 0%, #F48E28 100%);
+    color: var(--background-color03);
+    font-size: 26px;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .heroProcess-btn{
+    margin-left: 20px;
+    width: 44%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .heroProcess-btn button{
+    width: 66px;
+    height: 66px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px 0px #83A5FF40;
+    background-color: var(--background-color03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .heroProcess-btn button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .heroProcess-btn button img{
+    width: 33px;
+    height: 33px;
+    padding-left: 4px;
+  }
+  .heroProcess-btn h4{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .right-hero{
+    width: 40%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    /* fix it */
+    z-index: 15; 
+  }
+  .heroFood-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff; /* Optional: Add background color */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px; /* Set a fixed width for each card */
+    height: 250px; /* Set a fixed height for each card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+    margin: 10px;
+    text-align: center;
+}
+
+.heroFood-img img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Ensure the image doesn't exceed this height */
+    object-fit: cover;
+    border-radius: 8px; /* Optional: Round the corners of the image */
+}
+
+.heroFood-title h4 {
+    font-size: 15px;
+    margin: 10px 0 5px;
+}
+
+.heroFood-title p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #666; /* Optional: Add color to the description text */
+}
+
+.heroFood-title h5 {
+    font-size: 18px;
+    color: #333; /* Optional: Add color to the price */
+    margin-top: auto; /* Push the price to the bottom */
+}
+
+.heroFood-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Optional: Add a hover effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
